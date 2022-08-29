@@ -9,8 +9,10 @@ Lag et form hvor brukeren kan legge inn bruker info:
 - [ ] Epost
   - [ ] Valider felt
   - [ ] Påkrevd felt
+  - [ ] Placeholder
 - [ ] Navn
   - [ ] Påkrevd felt
+  - [ ] Placeholder
 - [ ] Submit knapp
 
 ### Kort
@@ -21,7 +23,7 @@ Lag et form hvor brukeren kan legge inn bruker info:
   - [ ] Intro text
   - [ ] Forfatter
   - [ ] Antall visninger
-- [ ] Lag et grid med mange kort
+- [ ] Vise mange kort
 
 ## CSS
 
