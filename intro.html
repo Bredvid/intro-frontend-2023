@@ -4,19 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend for life</title>
+    <link rel="stylesheet" href="intro.css" />
   </head>
   <body>
     <header>
       <h1>Hovedtittel</h1>
     </header>
     <main>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum repellat
-        ex sunt architecto necessitatibus modi accusantium, dolore placeat
-        veritatis omnis qui ipsa atque illo, dicta dolorum nulla sequi.
-        Obcaecati eos doloribus cumque recusandae excepturi molestiae. Rem non
-        modi voluptas tenetur?
-      </p>
+      <form class="form-wrapper">
+        <div class="label-input">
+          <label id="email" class="label">E-post</label>
+          <input type="email" required id="email" class="input" placeholder="Din e-postadresse..."/>
+        </div>
+        <div class="label-input">
+          <label id=name" class="label">Navn</label>
+          <input type="text" id="name" class="input" required placeholder="Ditt fulle navn..." />
+        </div>
+        <button  type="submit" class="button">Lagre</button>
+      </form>
     </main>
   </body>
 </html>
