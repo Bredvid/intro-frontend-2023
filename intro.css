@@ -28,6 +28,9 @@ html {
 body {
   margin: 1rem;
 }
+p {
+  margin: 0.25rem 0 0 0;
+}
 
 .form-wrapper {
   display: flex;
@@ -103,6 +106,10 @@ body {
   content: "";
   opacity: 0;
   transition: opacity ease 500ms;
+}
+.button[aria-disabled="true"] {
+  background-color: var(--grey);
+  cursor: not-allowed;
 }
 
 a {

@@ -11,17 +11,39 @@
       <h1>Hovedtittel</h1>
     </header>
     <main>
-      <form class="form-wrapper">
+      <form class="form-wrapper" novalidate id="form">
         <div class="label-input">
           <label for="email" class="label">E-post</label>
-          <input type="email" required id="email" class="input" placeholder="Din e-postadresse..."/>
+          <input
+            type="email"
+            aria-required="true"
+            id="email"
+            class="input"
+            placeholder="Din e-postadresse..."
+          />
+          <p id="alert-email"></p>
         </div>
         <div class="label-input">
-          <label for=name" class="label">Navn</label>
-          <input type="text" id="name" class="input" required placeholder="Ditt fulle navn..." />
+          <label for="name" class="label">Navn</label>
+          <input
+            type="text"
+            id="name"
+            class="input"
+            aria-required="true"
+            placeholder="Ditt fulle navn..."
+          />
+          <p id="alert-name"></p>
         </div>
-        <button  type="submit" class="button">Lagre</button>
+        <button
+          aria-disabled="true"
+          id="form-button"
+          type="submit"
+          class="button"
+        >
+          Lagre
+        </button>
       </form>
     </main>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
