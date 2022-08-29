@@ -39,3 +39,4 @@ Lag et form hvor brukeren kan legge inn bruker info:
   - [ ] Primary background
   - [ ] Hvit tekst
   - [ ] Antall visninger oppe i høyre hjørne
+- [ ] Lag kort grid
