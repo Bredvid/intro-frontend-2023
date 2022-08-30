@@ -1,10 +1,19 @@
-# HTML CSS
+# Webpack
 
-Lag et form hvor brukeren kan legge inn bruker info:
+## Hva er Webpack?
 
-## JS
+https://webpack.js.org/
 
-### Form
+## Sett opp webpack
 
-- [ ] Hente innhold fra form
-- [ ] Valider innhold og disable knapp
+- [ ] Initsialiser prosjekt med npm
+- [ ] Installer webpack og webpack-cli
+
+## Noen få viktige konsepter
+
+- Entry
+- Output
+- Loaders
+- Plugins
+- Mode
+- Browser Compatibility
