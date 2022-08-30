@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./index.css";
 import { Layout } from "./Layout";
 import { New } from "./pages/New";
 import { SinglePost } from "./pages/Post";
 import { Posts } from "./pages/Posts";
+import "./index.css";
 
 function AppRoutes() {
   return (
