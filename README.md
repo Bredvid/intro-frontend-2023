@@ -1,10 +1,40 @@
-# HTML CSS
+# Intro React
 
-Lag et form hvor brukeren kan legge inn bruker info:
+Før vi begynner må vi starte med gjøre prosjektet klart.
 
-## JS
+## Gjør oss klare
 
-### Form
+### Installer pakkene som trengs
 
-- [ ] Hente innhold fra form
-- [ ] Valider innhold og disable knapp
+```
+npm install
+```
+
+### Lag databasen
+
+```
+npx prisma migrate dev --name init
+```
+
+Du kan åpne databasen med følgende kommando
+
+```
+npx prisma studio
+```
+
+### Start REST-api serveren
+
+```
+npm run dev
+```
+
+## Bygg frontend
+
+- [ ] Lag en blogg feed
+- [ ] Lag en blogg side som man kan lese hele innholdet
+- [ ] Lag et login/signup form
+  - [ ] Style formet
+  - [ ] Style avhengig av error eller success
+  - [ ] Auto focus på errror
+  - [ ] Auto åpne signup hvis man prøver å logge inn uten å ha bruker
+- [ ] Lag et form for å lage nye blogg innlegg

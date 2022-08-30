@@ -1,0 +1,60 @@
+html {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+:root {
+  --blue-lightest: rgb(246, 248, 251);
+  --blue-lighter: rgb(223, 239, 250);
+  --blue-light: rgb(144, 202, 249);
+  --blue: rgb(24, 67, 101);
+  --blue-dark: rgb(17, 44, 67);
+  --blue-darker: rgb(12, 31, 47);
+  --blue-darkest: rgb(7, 19, 28);
+  --blue-focus: var(--blue-darker);
+  --red: rgb(238, 0, 0);
+  --orange: #ff8a00;
+  --grey-lightest: #fafafa;
+  --grey-lighter: #eaeaea;
+  --grey-light: #999;
+  --grey: #888;
+  --border-color: var(--grey-lighter);
+  --radius: 10px;
+  --white: #ffffff;
+  --box-shadow-large: rgb(0 0 0 / 20%) 0px 2px 4px -1px,
+    rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+  --box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px,
+    rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+
+body {
+  background-color: var(--blue-lightest);
+  color: var(--blue-darkest);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  transition: color 0.25s;
+  color: var(--blue-darkest);
+}
+
+a:hover :not(.button),
+a:focus :not(.button) {
+  color: var(--orange);
+}
+
+.link {
+  margin: 1rem;
+}
+
+.link__active {
+  color: tomato;
+}
